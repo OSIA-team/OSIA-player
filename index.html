@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title></title>
+    <head>
+
+      <!--import this:-->
+      <link href="style/player.style.css" rel="stylesheet">
+      <link href="style/osia.skin.css" rel="stylesheet">
+      <!--END of import -->
+    </head>
+    <body>
+
+      <style>
+        html, body{
+          padding: 0;
+          margin: 0;
+        }
+
+        .container{
+          max-width: 600px;
+          margin: 0 auto;
+        }
+      </style>
+      <div class="container">
+        <video class="video-js vjs-16-9" controls data-setup='{"controls": true, "autoplay": false, "preload": "auto"}'>
+          <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+          </p>
+        </video>
+        <h1>OSIA video player v0.1 based on open-source - <a href="http://videojs.com/" target="_parent">Video.js</a></h1>
+      </div>
+
+
+      <!-- Import this-->
+      <script src="js/player.bundle.js"></script>
+      <!-- end of inport- ->
+    </body>
+</html>
